@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#header{
+    color: white;
+    background-image: url(images/cabecalho.svg);
+    padding-top: 25%;
+    padding-left: 3%;
+    padding-bottom: 4%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#header-text-1{
+    font-size: 500%;
+}
+
+#header-text-2{
+    font-size: 250%;
+}
+
+#info-bar{
+    color: white;
+    background-color: #73B3D6;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 4%;
+    text-align: center;
+}
+
+
+#info-menu{
+    background-color: #F0F7FF;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(1, 100px);
+    columns: auto;
+    color: #73B3D6;
+    padding-bottom: 45%;
+}
+
+#palestrantes{
+    width: 100%;
+    grid-column: span 1;
+    padding-left: 20%;
+}
+
+#webinar-list{
+    color: #20343F;
+    grid-column: span 2;
+}
+
+#webinar{
+    padding-bottom: 5%;
+}
+
+#webinar h1 {
+    font-size: 320%;
+    padding-top: 3.5%;
+    padding-left: 26%;
+}
+
+#webinar li{
+    font-style: italic;
+    
+}
+
+.text{
+    padding-left: 28%;
+    padding-top: 3.5%;
+    font-size: 240%;
+    font-weight: bold;
+}
+
+#form{
+    background-color: #73B3D6;
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#text-form{
+    padding-bottom: 2%;
+}
+
+input{
+    width: 20%;
+    padding: 0.5%;
+    margin-top: 1%;
+    border-radius: 150px;
+    border: none;
+    padding-left: 2%;
+    font-size: 130%;
+}
+
+button{
+    width: 10%;
+    padding: 0.5%;
+    margin-top: 2%;
+    border-radius: 150px;
+    border: none;
+    background-color: #20343F;
+    color: #F0F7FF;
+    font-weight: bold;
+    font-size: 130%;
+    margin-bottom: 6%;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: translate(1px);
+    background-color: #253d49;
+    box-shadow: #20343F 0px 1px 10px;
+}
